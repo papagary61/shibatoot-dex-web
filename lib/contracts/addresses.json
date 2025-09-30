@@ -1,0 +1,6 @@
+{
+  "base": {
+    "factory": "0xYourFactoryAddressHere",
+    "router":  "0xYourRouterAddressHere"
+  }
+}

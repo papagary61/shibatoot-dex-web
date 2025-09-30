@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App-wide basics */
+html, body, #__next { height: 100%; }
+body { @apply bg-black text-white antialiased; }
+
+/* Optional: subtle card/outline look */
+.card { @apply rounded-2xl border border-white/10 bg-black/40 backdrop-blur; }
