@@ -35,6 +35,17 @@ Open http://localhost:3000. In your wallet, connect to **Localhost 8545** networ
 - NEXT_PUBLIC_SHBT
 - (optional) NEXT_PUBLIC_RPC_URL for Base mainnet
 
+
+# ShibaToot DEX Web
+
+Next.js + Tailwind + Wagmi/RainbowKit app for the ShibaToot DEX & Launchpad.
+
+## Dev
+```bash
+npm install
+npm run dev
+
+
 ## Notes
 - Slippage UI is informational; minOut is set to 0 in demo swap. Update before production.
 - Add/Remove liquidity flow is simplified for CP pools (transfer then mint).
